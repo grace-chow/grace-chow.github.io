@@ -3,11 +3,8 @@ header {
 	color: #FFFFFF;
 	text-align: center;
 	margin: 2%;
-	padding: 15px;
+	padding: 0px 0px 5px 0px;
 	font-family: Helvetica, Arial, serif;
-	-webkit-border-radius: 25px;
-	-moz-border-radius: 25px;
-	-o-border-radius: 25px;
 	border-radius:  25px;
 }
 
@@ -21,27 +18,15 @@ h2 {
 	font-family: Helvetica, Arial, serif;
 }
 
-section {
-	background: #E3E5E8;
-	display: inline-block;
-	width: 30%;
-	float: left;
-	margin: 1%;
-	padding: 5px;
-	font-family: Helvetica, Arial, serif;
-	-webkit-border-radius: 25px;
-	-moz-border-radius: 25px;
-	-o-border-radius: 25px;
-	border-radius:  25px;
-}
-
 
 details {
 	font-style: italic;
+	font-family: Helvetica, Arial, serif;
 }
 
 summary {
 	font-style: normal;
+	font-family: Helvetica, Arial, serif;
 }
 
 footer {
@@ -67,7 +52,22 @@ a:hover {
 	color: #4169E1;
 }
 
-#content{
-	margin: 1%;
-	width: 100%;
+.half {
+	width: 45%;
+    margin: 2%;
+    padding: 3px;
+    display: inline-block;
+    float: left;
+    font-family: Helvetica, Arial, serif;
+    background: #E0DFDA;
+    border-radius: 10px;
+}
+
+.whole {
+	font-family: Helvetica, Arial, serif;
+    margin: 2%;
+    padding: 3px;
+    background: #E0DFDA;
+    clear: both;
+    border-radius: 10px;
 }
