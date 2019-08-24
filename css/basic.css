@@ -5,6 +5,10 @@ header {
 	margin: 2%;
 	padding: 15px;
 	font-family: Helvetica, Arial, serif;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-o-border-radius: 25px;
+	border-radius:  25px;
 }
 
 h1 {
@@ -25,6 +29,10 @@ section {
 	margin: 1%;
 	padding: 5px;
 	font-family: Helvetica, Arial, serif;
+	-webkit-border-radius: 25px;
+	-moz-border-radius: 25px;
+	-o-border-radius: 25px;
+	border-radius:  25px;
 }
 
 
