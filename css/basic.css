@@ -1,26 +1,30 @@
 header {
-	background: #C0C0C0;
+	background: #87CEFA;
 	color: #FFFFFF;
 	text-align: center;
 	margin: 2%;
 	padding: 15px;
-	font-family: "Comic Sans MS", Arial, serif;
+	font-family: Helvetica, Arial, serif;
 }
 
 h1 {
 	font-variant: uppercase;
+	font-family: Helvetica, Arial, serif;
 }
 
 h2 {
 	font-variant: small-caps;
+	font-family: Helvetica, Arial, serif;
 }
 
 section {
+	background: #E3E5E8;
 	display: inline-block;
 	width: 30%;
 	float: left;
 	margin: 1%;
 	padding: 5px;
+	font-family: Helvetica, Arial, serif;
 }
 
 
@@ -33,10 +37,23 @@ summary {
 }
 
 footer {
-	background: #7B7CFF;
+	background: #E6E6FA;
 	clear: both;
+	font-family: Helvetica, Arial, serif;
 }
 
 img {
 	width: 125px;
+}
+
+a:link {
+	color: #483D8B;
+}
+
+a:visited {
+	color: #800080;
+}
+
+a:hover {
+	color: #4169E1;
 }
