@@ -1,11 +1,20 @@
 header {
 	background: #87CEFA;
-	color: #FFFFFF;
 	text-align: center;
 	margin: 2%;
 	padding: 0px 0px 5px 0px;
 	font-family: Helvetica, Arial, serif;
 	border-radius:  25px;
+	animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  0%,100% {
+    background-color: #FFF75E;
+  }
+  50% {
+    background-color: #BBFBFC;
+  }
 }
 
 h1 {
@@ -52,7 +61,22 @@ a:hover {
 	color: #4169E1;
 }
 
-.half {
+nav a {
+	margin: 4%;
+}
+
+.left {
+	width: 45%;
+    margin: 2%;
+    padding: 3px;
+    display: inline-block;
+    float: left;
+    font-family: Helvetica, Arial, serif;
+    background: #E0DFDA;
+    border-radius: 10px;
+}
+
+.right {
 	width: 45%;
     margin: 2%;
     padding: 3px;
@@ -70,4 +94,17 @@ a:hover {
     background: #E0DFDA;
     clear: both;
     border-radius: 10px;
+}
+
+.left:hover {
+	background: #FFFFFF;
+}
+
+.right:hover {
+	background: #FFFFFF;
+}
+
+.whole:hover {
+	background: #000000;
+	color: #FFFFFF;
 }

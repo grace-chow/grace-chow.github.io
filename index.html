@@ -5,6 +5,7 @@
 	<meta charset="UTF-8">
 	<title>About Grace!</title>
 	<link rel="stylesheet" href="css/basic.css">
+	<script src="js/test.js"></script>
 </head>
 
 <body>
@@ -18,7 +19,7 @@
 		</nav>
 	</header>
 
-		<section class="half"><h2>Favorite Foods</h2>
+		<section class="left"><h2>Favorite Foods</h2>
 			<ul>
 				<li><a href="https://www.foodnetwork.com/recipes/spiced-potato-stuffed-pastries-samosas-recipe-1942357" target=_blank>Samosas</a></li>
 				<li><a href="https://www.tripsavvy.com/what-is-sushi-1550725" target=_blank>Sushi</a></li>
@@ -27,7 +28,7 @@
 			</ul>
 		</section>
 
-		<section class="half"><h2>Achievements</h2>
+		<section class="right"><h2>Achievements</h2>
 			Progress in this course (100%) <progress value="100" max="100"></progress><br>
 			Progress in the Specialization capstone (20%) <progress value="20" max="100"></progress><br>
 			Progress in life goals (10%) <progress value="10" max="100"></progress><br>
@@ -36,8 +37,9 @@
 		<section class="whole"><h2>More About Me</h2>
 			<details open>
 				<summary>My Childhood</summary>
-				<p>I was born on Venus but eventually found my way to Texas.</p>
+				<p id="testButton">I was born on Venus but eventually found my way to Texas.</p>
 			</details>
+			<button type="button" onclick="changeText()">What's the truth?</button>
 		</section>
 		<br>
 	
